@@ -35,11 +35,11 @@ function getHumanChoice (b) {
 function playGame () {
     let humanScore = 0;
     let computerScore = 0;
-    for(let i = 1; i <= 5; i++) {
+    // for(let i = 1; i <= 5; i++) {
         const computerSelection = getComputerChoice();
         const humanSelection = getHumanChoice();
         playRound(humanSelection, computerSelection);
-    }
+    // }
     function playRound (humanChoice, computerChoice) {
         if (humanChoice === computerChoice) {
             console.log("Its a tie!");
