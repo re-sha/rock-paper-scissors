@@ -5,9 +5,9 @@
     <title>Rock, paper, scissors!</title>
   </head>
   <body>
-    <script src = "scripts.js"></script>
     <button id="rock">Rock</button>
     <button id="paper">Paper</button>
     <button id="scissors">Scissors</button>
+    <script src = "scripts.js"></script> <!-- moved to the bottom to ensure script runs ONLY AFTER DOM elements are loaded (so no null values will come)  -->
   </body>
 </html>
